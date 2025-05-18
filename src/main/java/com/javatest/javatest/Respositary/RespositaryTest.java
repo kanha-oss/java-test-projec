@@ -14,7 +14,7 @@ import java.util.Optional;
 import java.util.function.Function;
 
 @Repository
-public interface RespositaryTest extends JpaRepository<Test,Long> {
+public interface RespositaryTest extend JpaRepository<Test,Long> {
 
 
 }
